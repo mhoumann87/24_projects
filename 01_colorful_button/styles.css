@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    /* colors */
+    --body-bg: #1e1f25;
+    --btn-bg: #000;
+    --btn-color: #cbcbcb;
+    --btn-color-hover: #fff;
+    --grad-color1: #eeaf61;
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d63;
+
+    /* fonts */
+    --font-family: 'Karla';
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100svh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg);
+    font-family: var(--font-family), sans-serif;
+
+    display: grid;
+    place-items: center;
+}
+
+.button {
+    background-color: var(--btn-bg);
+    color: #ffffff;
+    padding: 1em 2em;
+    font-size: 3rem;
+    text-transform: uppercase;
+    border: none;
+
+    transition: scale 250ms ease-in;
+
+    &:is(:hover, :focus) {
+        scale: 1.05;
+    }
+}
