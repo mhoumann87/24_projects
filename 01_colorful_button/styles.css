@@ -32,6 +32,29 @@ body {
     place-items: center;
 }
 
+.button-border {
+    padding: 5px;
+    background-image: linear-gradient(to left,
+        var(--grad-color1) 20%,
+        var(--grad-color2) 20% 40%,
+        var(--grad-color3) 40% 60%,
+        var(--grad-color4) 60% 80%,
+        var(--grad-color5) 100%);
+
+    transition: all 250ms ease-in-out;
+
+    &:is(:hover, :focus) {
+        background-image: linear-gradient(to left,
+            var(--grad-color5) 20%
+        var(--grad-color4) 20% 40%,
+        var(--grad-color3) 40% 60%,
+        var(--grad-color2) 60% 80%,
+        var(--grad-color1) 100%);
+
+        scale: 1.05;
+    }
+}
+
 .button {
     background-color: var(--btn-bg);
     color: #ffffff;
@@ -40,9 +63,9 @@ body {
     text-transform: uppercase;
     border: none;
 
-    transition: scale 250ms ease-in;
+    transition: all 250ms ease-in;
 
     &:is(:hover, :focus) {
-        scale: 1.05;
+        /*  scale: 1.05; */
     }
 }
