@@ -4,4 +4,6 @@ Youtube video with 24 challenges, creating 24 different components for web devel
 
 Find the [video on Youtube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 
-01 Colorful Button
+1. Colorful Button
+2. Expanding Search Bar
+3. 
