@@ -34,38 +34,40 @@ body {
 
 .button-border {
     padding: 5px;
-    background-image: linear-gradient(to left,
-        var(--grad-color1) 20%,
-        var(--grad-color2) 20% 40%,
-        var(--grad-color3) 40% 60%,
-        var(--grad-color4) 60% 80%,
-        var(--grad-color5) 100%);
+    background-image: linear-gradient(115deg,
+        var(--grad-color1),
+        var(--grad-color2),
+        var(--grad-color3),
+        var(--grad-color4),
+        var(--grad-color5));
 
     transition: all 250ms ease-in-out;
 
     &:is(:hover, :focus) {
-        background-image: linear-gradient(to left,
-            var(--grad-color5) 20%
-        var(--grad-color4) 20% 40%,
-        var(--grad-color3) 40% 60%,
-        var(--grad-color2) 60% 80%,
-        var(--grad-color1) 100%);
+        background-image: linear-gradient(230deg,
+        var(--grad-color1),
+        var(--grad-color2),
+        var(--grad-color3),
+        var(--grad-color4),
+        var(--grad-color5));
 
-        scale: 1.05;
+    & .button {
+        color: var(--btn-color-hover);
+        padding: 1.1em 1.6em;
+    }
     }
 }
 
 .button {
     background-color: var(--btn-bg);
-    color: #ffffff;
-    padding: 1em 2em;
+    color: var(--btn-color);
+    padding: 1em 1.5em;
+    font-family: inherit;
     font-size: 3rem;
     text-transform: uppercase;
+    letter-spacing: .1em;
     border: none;
 
     transition: all 250ms ease-in;
-
-    &:is(:hover, :focus) {
-        /*  scale: 1.05; */
-    }
 }
+
