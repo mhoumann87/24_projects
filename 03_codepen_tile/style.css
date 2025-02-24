@@ -1,0 +1,29 @@
+:root {
+    --font-main: 'Noto Sans';
+
+    /* Colors */
+    --bg-main: #131417;
+    --bg-card: #1e1f26;
+    --bg-stats: #131417;
+    --username: #b7bbc8;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: center;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-main), sans-serif;
+    background-color: var(--bg-main);
+    color: var(--username);
+}
