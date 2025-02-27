@@ -1,0 +1,48 @@
+:root {
+    --box-1: #FF0000;
+    --box-2: #FFAA00;
+    --box-3: #00FF00;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+}
+
+.box {
+    background-color: var(--bg-color);
+
+    width: 5rem;
+    aspect-ratio: 1;
+    animation: rotation 6s infinite linear;
+}
+
+#box-1 {
+    --bg-color: var(--box-1);
+}
+
+#box-2 {
+    --bg-color: var(--box-2);
+}
+
+#box-3 {
+    --bg-color: var(--box-3);
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
