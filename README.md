@@ -9,4 +9,5 @@ Find the [video on Youtube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 3. Codepen Tile
 4. Loading Animation 1
 5. Loading Animation 2
+6. Archery Target
 
