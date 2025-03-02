@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    min-height: 100svh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+
+    & h1 {
+        font-size: 4rem;
+        margin: 0;
+        line-height: 1;
+    }
+}
+
+.carousel::after {
+    content: "";
+    color: #FFFFFF;
+    padding: 0.5em 0.25em;
+    background-color: #000000;
+    animation: words 8s infinite;
+}
+
+@keyframes words {
+    0% {
+        content: "Books";
+        background-color: #000000;
+    }
+    20% {
+        content: "Photography";
+        background-color: #00FF00;
+    }
+    40% {
+        content: "Coding";
+        background-color: #FF0000;
+    }
+    60% {
+        content: "Music";
+        background-color: #0000ff;
+    }
+    80% {
+        content: "Nature";
+        background-color: #FFAA00;
+    }
+    100% {
+        content: "Books";
+        background-color: #000000;
+    }
+}
+
