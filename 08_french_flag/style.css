@@ -1,0 +1,47 @@
+:root {
+    --red: #ED2938;
+    --white: #FFFFFF;
+    --blue: #002495;
+
+    --flag-height: 15rem;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100svh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+}
+
+.french-flag {
+    width: calc(var(--flag-height) * 3 / 2);
+    height: var(--flag-height);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.white {
+    background-color: var(--white);
+}
+
+.red {
+    background-color: var(--red);
+}
