@@ -1,0 +1,47 @@
+:root {
+    --black: #000000;
+    --red: #DE0002;
+    --yellow: #FFCF00;
+
+    --flag-height: 15rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100svh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+}
+
+.german-flag {
+    width: calc(var(--flag-height) * 5 / 3);
+    height: var(--flag-height);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.black {
+    background-color: var(--black);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}

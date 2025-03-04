@@ -12,3 +12,4 @@ Find the [video on Youtube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 6. Archery Target
 7. Word Carousel
 8. French Flag
+9. Flag of Germany
