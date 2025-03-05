@@ -13,3 +13,5 @@ Find the [video on Youtube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 7. Word Carousel
 8. French Flag
 9. Flag of Germany
+10. Flag of Madagascar
+

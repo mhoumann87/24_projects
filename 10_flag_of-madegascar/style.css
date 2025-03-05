@@ -1,0 +1,50 @@
+:root {
+    --black: #2f2f2f;
+    --white: #ffffff;
+    --red: #FC3E32;
+    --green: #007E39;
+
+    --flag-height: 15rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+}
+
+.container {
+    min-height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    height: var(--flag-height);
+    aspect-ratio: 3 / 2;
+    display: grid;
+    grid-template-areas:
+            "white red red"
+            "white green green";
+}
+
+.white {
+    grid-area: white;
+    background-color: var(--white);
+}
+
+.red {
+    grid-area: red;
+    background-color: var(--red);
+}
+
+.green {
+    grid-area: green;
+    background-color: var(--green);
+}
