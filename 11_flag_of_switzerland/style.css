@@ -1,0 +1,40 @@
+:root {
+    --red: #FC3E32;
+    --white: #ffffff;
+
+    --fleg-height: 15rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+}
+
+.flag {
+    display: grid;
+    height: var(--fleg-height);
+    width: var(--fleg-height);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.white {
+    background-color: var(--white);
+}
+
