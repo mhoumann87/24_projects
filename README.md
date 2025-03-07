@@ -15,4 +15,16 @@ Find the [video on Youtube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 9. Flag of Germany
 10. Flag of Madagascar
 11. Flag of Switzerland
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
+12. Flag of Japan
 
