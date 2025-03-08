@@ -1,8 +1,8 @@
 # 24 Projects CSS / HTML
 
-Youtube video with 24 challenges, creating 24 different components for web development. 
+YouTube video with 24 challenges, creating 24 different components for web development. 
 
-Find the [video on Youtube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
+Find the [video on YouTube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 
 1. Colorful Button
 2. Expanding Search Bar
@@ -16,15 +16,5 @@ Find the [video on Youtube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 10. Flag of Madagascar
 11. Flag of Switzerland
 12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
-12. Flag of Japan
+13. Flag of Sweden
 
