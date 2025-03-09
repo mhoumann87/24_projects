@@ -1,0 +1,55 @@
+:root {
+    --orange: #e15307;
+    --white: #ffffff;
+    --green: #10af2a;
+    --background: #2e2e2e;
+
+    --flag-height: 25rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+    min-height: 100svh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-of-niger {
+    height: var(--flag-height);
+    aspect-ratio: 7 / 6;
+    display: grid;
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.white {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 85%;
+    aspect-ratio: 1;
+    background-color: var(--orange);
+    border-radius: 50%;
+}
+
+.green {
+    background-color: var(--green);
+}
