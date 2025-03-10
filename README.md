@@ -17,4 +17,5 @@ Find the [video on YouTube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 11. Flag of Switzerland
 12. Flag of Japan
 13. Flag of Sweden
+14. Flag of Niger
 
