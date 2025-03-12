@@ -19,4 +19,5 @@ Find the [video on YouTube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 13. Flag of Sweden
 14. Flag of Niger
 15. Github Profile Page
+16. Toggle Switch
 
