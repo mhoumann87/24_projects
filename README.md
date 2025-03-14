@@ -21,20 +21,6 @@ Find the [video on YouTube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 15. Github Profile Page
 16. Toggle Switch
 17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
-17. Playing Card - Ace Of Spades
+18. Playing Card - Four Of Hearts
+
 
