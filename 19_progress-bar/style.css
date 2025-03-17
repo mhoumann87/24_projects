@@ -23,43 +23,37 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100svh;
+    width: 40rem;
+    margin: 60px auto;
 }
 
 .progress-bar {
-    width: 20%;
-    height: 2rem;
+    height: 40px;
+    background-color: var(--progbar-bg);
+    border-radius: 20px;
 }
 
 .prog-status {
-    width: 100%;
-    height: 100%;
-    background-color: var(--progbar-bg);
+    height: 40px;
+    border-radius: 20px;
 }
 
 .stage-1 {
     width: 25%;
     background-color: var(--stage-1-bg);
-    border-radius: 50px 0 0 50px;
 }
 
 .stage-2 {
     width: 50%;
     background-color: var(--stage-2-bg);
-    border-radius: 50px 0 0 50px;
 }
 
 .stage-3 {
     width: 75%;
     background-color: var(--stage-3-bg);
-    border-radius: 50px 0 0 50px;
 }
 
 .stage-4 {
     width: 100%;
     background-color: var(--stage-4-bg);
-    border-radius: 50px;
 }
