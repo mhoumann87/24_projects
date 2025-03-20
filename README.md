@@ -22,5 +22,7 @@ Find the [video on YouTube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 16. Toggle Switch
 17. Playing Card - Ace Of Spades
 18. Playing Card - Four Of Hearts
+19. Progress Bar
+20. Flash Card
 
 
