@@ -24,5 +24,6 @@ Find the [video on YouTube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 18. Playing Card - Four Of Hearts
 19. Progress Bar
 20. Flash Card
+21. Loading Animation 3
 
 
