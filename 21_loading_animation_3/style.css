@@ -1,0 +1,36 @@
+:root {
+    --circle-bg: #cfcece;
+    --rotating: #ffa600;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100svh;
+}
+
+.container {
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+}
+
+.circle {
+    height: 10rem;
+    aspect-ratio: 1;
+    border-width: 50px;
+    border-style: solid;
+    border-top-color: var(--rotating);
+    border-right-color: var(--circle-bg);
+    border-bottom-color: var(--circle-bg);
+    border-left-color: var(--circle-bg);
+    border-radius: 50%;
+    animation: rotate 1500ms linear infinite;
+}
+
+@keyframes rotate {
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
