@@ -25,5 +25,6 @@ Find the [video on YouTube](https://youtu.be/TzuWIHGFKCQ?feature=shared)
 19. Progress Bar
 20. Flash Card
 21. Loading Animation 3
+22. Instagram Stories Menu
 
 
